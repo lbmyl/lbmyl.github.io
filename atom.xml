@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-16T14:03:32.498Z</updated>
+  <updated>2021-11-17T03:09:17.053Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>苦日子开始咯~</title>
+    <link href="http://example.com/2021/11/17/%E7%A5%9E%E7%8E%A5%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97-1/"/>
+    <id>http://example.com/2021/11/17/%E7%A5%9E%E7%8E%A5%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97-1/</id>
+    <published>2021-11-17T03:00:40.282Z</published>
+    <updated>2021-11-17T03:09:17.053Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="记录"><a href="#记录" class="headerlink" title="记录~"></a>记录~</h3><p> <strong>上班地点</strong></p><p>贵州神玥数字技术</p><h5 id="上班时间"><a href="#上班时间" class="headerlink" title="上班时间"></a>上班时间</h5><p>早上：9：00 到 12：00</p><p>下午：13：30 到 18：00</p><p><strong>感觉</strong>，应该是刚来的缘故，对于这里的很多东西都不熟悉。并且这里像是无人区一般，在宿舍窗户外面看见的是一片荒山</p><p><img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.CmB9J2BJwyBeKqwh3eNo0gHaGH?w=198&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="离谱 表情包 的图像结果"></p><h5 id="饭菜"><a href="#饭菜" class="headerlink" title="饭菜"></a>饭菜</h5><p>在这里的话，主要在公司进行吃饭的问题。其实还好。还能凑合。</p><h5 id="压力"><a href="#压力" class="headerlink" title="压力"></a>压力</h5><p>暂时还没有压力，主要就是对于生活环境的不习惯而已。</p><h5 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h5><p>加油~</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;记录&quot;&gt;&lt;a href=&quot;#记录&quot; class=&quot;headerlink&quot; title=&quot;记录~&quot;&gt;&lt;/a&gt;记录~&lt;/h3&gt;&lt;p&gt; &lt;strong&gt;上班地点&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;贵州神玥数字技术&lt;/p&gt;
+&lt;h5 id=&quot;上班时间&quot;&gt;&lt;a href=&quot;#上</summary>
+      
+    
+    
+    
+    <category term="工作日志" scheme="http://example.com/categories/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="工作" scheme="http://example.com/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>timeflow</title>
