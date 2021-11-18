@@ -1813,7 +1813,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #40ff0a;
+  background: #ffffeb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3006,4 +3006,45 @@ pre .javascript .function {
   .post-body {
     text-align: justify;
   }
+}
+body {
+  background: url("/images/bgc.jpg") !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  position: relative;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 14px;
+  line-height: 2;
+  color: #555;
+  background: #f5f7f9;
+}
+.header-inner {
+  border-radius: 20px 20px 20px 20px;
+  opacity: 0.85;
+}
+.sidebar {
+  transition-duration: 0.4s;
+  opacity: 0.85;
+  border-radius: 10px 10px 10px 10px;
+}
+.sidebar-inner {
+  background: var(--content-bg-color);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
+  box-sizing: border-box;
+  color: var(--text-color);
+  width: 240px;
+  opacity: 0;
+}
+.post-block {
+  background: var(--content-bg-color);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
+  padding: 40px;
+}
+.post-block + .post-block {
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
+  margin-top: 12px;
 }
