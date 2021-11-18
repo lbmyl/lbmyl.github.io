@@ -359,6 +359,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2021/11/16/index/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2021/11/16/index/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -512,6 +522,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2021/11/18/%E7%A5%9E%E7%8E%A5%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97-2/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2021/11/18/%E7%A5%9E%E7%8E%A5%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97-2/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -669,6 +689,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2021/11/17/%E7%A5%9E%E7%8E%A5%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97-1/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2021/11/17/%E7%A5%9E%E7%8E%A5%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97-1/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -822,6 +852,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2021/11/16/%E6%97%B6%E5%85%89/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2021/11/16/%E6%97%B6%E5%85%89/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -967,6 +1007,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2021/11/16/%E5%8F%AF%E7%88%B1%E7%9A%84%E5%B0%8F%E8%89%BA/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2021/11/16/%E5%8F%AF%E7%88%B1%E7%9A%84%E5%B0%8F%E8%89%BA/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -1374,6 +1424,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'smhchfN9y2XKyHTyFEmrVKP3-gzGzoHsz',
+        appKey: 'UW2F4y4chbrg3xLM4i7hdSmq',
+        placeholder: '说些什么？',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
