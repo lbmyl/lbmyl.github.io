@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-18T08:13:11.740Z</updated>
+  <updated>2021-11-19T01:21:49.582Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>情人</title>
+    <link href="http://example.com/2021/11/19/%E4%B9%96%E4%B9%96/"/>
+    <id>http://example.com/2021/11/19/%E4%B9%96%E4%B9%96/</id>
+    <published>2021-11-19T01:21:49.582Z</published>
+    <updated>2021-11-19T01:21:49.582Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="乖乖"><a href="#乖乖" class="headerlink" title="乖乖"></a>乖乖</h3><p> 我好爱你</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;乖乖&quot;&gt;&lt;a href=&quot;#乖乖&quot; class=&quot;headerlink&quot; title=&quot;乖乖&quot;&gt;&lt;/a&gt;乖乖&lt;/h3&gt;&lt;p&gt; 我好爱你&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="恋爱" scheme="http://example.com/categories/%E6%81%8B%E7%88%B1/"/>
+    
+    
+    <category term="乖乖" scheme="http://example.com/tags/%E4%B9%96%E4%B9%96/"/>
+    
+  </entry>
   
   <entry>
     <title>第三天-灾难日</title>
