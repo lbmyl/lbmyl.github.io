@@ -278,7 +278,7 @@
             // ========== 配置区域 ==========
             // 1. 您的 CDN 地址（末尾不要带 /，因为下面拼接时会加）
             const CDN_BASE = 'https://cdn.jsdelivr.net/gh/lbmyl/images@master';
-            
+            const CDN_BASE2 = 'https://cdn.jsdmirror.com/gh/lbmyl/images@main';
             // 2. 图片列表：每项为 { file: 文件名, desc: 描述文字 }
             //    文件名格式：d1.jpg, d2.jpg ... 或任何其他命名
             const imageList = [
@@ -315,7 +315,7 @@
                 // 图片
                 const img = document.createElement('img');
                 // 拼接完整 CDN 路径：CDN_BASE + '/' + 文件名
-                img.src = CDN_BASE + '/' + item.file;
+                img.src = CDN_BASE2 + '/' + item.file;
                 img.alt = item.desc;
                 img.loading = 'lazy';
                 photoDiv.appendChild(img);
@@ -335,7 +335,7 @@
             // 更新数量
             countSpan.textContent = imageList.length;
 
-            console.log('📸 相册已加载 · 图片来自 CDN:', CDN_BASE);
+            console.log('📸 相册已加载 · 图片来自 CDN:', CDN_BASE2);
             console.log('📸 共加载', imageList.length, '张图片');
         })();
     </script>
