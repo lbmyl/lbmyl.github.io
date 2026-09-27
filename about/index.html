@@ -1,0 +1,287 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content>
+		<meta name="author" content>
+		<title>timeby</title>
+		
+		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+		<style>
+		/* stylelint-disable property-no-vendor-prefix */
+
+/*
+ * Globals
+ */
+body {
+  background: #1a1a2e;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* 桌面端图片背景 */
+#bg-image-desktop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* 移动端视频背景 */
+#bg-video-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* 默认：桌面端图片显示，移动端视频隐藏 */
+#bg-image-desktop {
+  display: block;
+}
+#bg-video-mobile {
+  display: none;
+}
+
+/* 半透明遮罩 */
+
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  position: relative;
+  z-index: 2;
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  color: rgba(255, 255, 255, .75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #fff;
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
+}
+
+/* ===== 移动设备适配 ===== */
+@media (max-width: 767px) {
+  /* 切换：隐藏桌面端图片，显示移动端视频 */
+  #bg-image-desktop {
+    display: none;
+  }
+  #bg-video-mobile {
+    display: block;
+  }
+
+  /* footer 固定在底部 */
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding-bottom: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
+  }
+  
+  /* 给底部留出空间 */
+  .cover-container {
+    padding-bottom: 80px;
+  }
+  
+  /* 标题保持正常位置 */
+  .masthead {
+    position: relative;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+		</style>
+	</head>
+	<body>
+		<!-- 桌面端图片背景（请替换 src 中的图片链接） -->
+		<img id="bg-image-desktop" src="https://cdn.jsdmirror.com/gh/lbmyl/images@main/bg3.png" alt="背景图片">
+
+		<!-- 移动端视频背景（保持不变） -->
+		<video id="bg-video-mobile" autoplay muted loop playsinline>
+			<source src="https://cdn.jsdelivr.net/gh/lbmyl/images@master/bg3.mp4" type="video/mp4">
+		</video>
+
+		<div class="site-wrapper">
+			<div class="site-wrapper-inner">
+				<div class="cover-container">
+					<div class="masthead clearfix">
+						<div class="inner">
+							<h3 class="masthead-brand"><span id="失歌">失歌</span></h3>
+							<nav>
+								<ul class="nav masthead-nav">
+									<li><a href="https://timeby.top">D</a></li>
+									<li><a href="https://timeby.top/archives">文字</a></li>
+									<li><a href="https://timeby.top/guestbook">留言板</a></li>
+									<li><a href="https://timeby.top/daily">daily</a></li>
+									<li><a href="https://timeby.top/bing">🔒</a></li>
+									<li><a href="https://timeby.top/music">🎵</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="inner cover">
+						<p class="lead"></p>
+					</div>
+					<div class="mastfoot">
+						<div class="inner">
+							再多回想，越是有迹可循，再多情爱，也随着雨滴落在遥遥无期的心间
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
